@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    background: rgb(15, 49, 102);
+    color: white;
+}
+#title{
+    margin-bottom: 24px;
+}
+#enteredNumber{
+    margin-bottom: 24px;
+}
+#attempt{
+    margin-bottom: 12px;
+}
+#checkNumberBtn{
+    padding: 12px 24px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
